@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LLM Comparison Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>LLM Comparison Dashboard</h1>
+
+    <textarea id="prompt" placeholder="Enter your prompt..."></textarea>
+    <button onclick="compare()">Compare Models</button>
+
+    <div class="results">
+        <div><h3>OpenAI</h3><pre id="openai"></pre></div>
+        <div><h3>Claude</h3><pre id="claude"></pre></div>
+        <div><h3>Gemini</h3><pre id="gemini"></pre></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
